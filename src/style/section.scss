@@ -1,0 +1,47 @@
+.project{
+  height: auto;
+  padding: 2rem;
+
+  h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.project-wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+article{
+  margin: 2rem;
+  flex:0 1 500px;
+
+  h4{
+    margin-top: 1rem;
+  }
+
+
+  a.btn{
+    border: solid hsl(178,99%,35%) 2px;
+    display: inline-block;
+    color: hsl(178,99%,35%);
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    padding: .6rem 1.5rem;
+    // color: red;
+  
+    &:hover{
+      color: var(--white);
+      background-color:var(--main);
+    }
+  }
+}
+
+
