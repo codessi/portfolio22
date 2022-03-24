@@ -2,6 +2,7 @@
 import './style/App.scss';
 import profile from './profile.jpg'
 import Projects from './components/Projects'
+// "homepage": "https://codessi.github.io/portfolio22",
 
 function App() {
   return (
