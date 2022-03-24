@@ -95,9 +95,9 @@ header{
 
 
 
-section{
-  min-height: 100vh;
-}
+// section{
+//   min-height: 100vh;
+// }
 
 .about, .contact{
   background-color: var(--main);
@@ -134,8 +134,9 @@ section{
 
   .about-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 3rem;
     flex-wrap: wrap;
     // gap: 1.5rem;
     margin: 0 1rem;

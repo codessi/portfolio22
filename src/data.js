@@ -1,5 +1,13 @@
 export const data = [
   {
+    title:"Loopstudio",
+    image: "https://live.staticflickr.com/65535/51957515183_81f624a04a_b.jpg",
+    description: " A static page built with react html scss includes flexbox, grid, responsive, Mobile-first webflow",
+    live:"https://codessi.github.io/loopstudios-landing-page/",
+    sourceCode:"https://github.com/codessi/loopstudios-landing-page",
+
+  },
+  {
     title:"E-commerce",
     image: "https://live.staticflickr.com/65535/51940737519_4858c92806_b.jpg",
     description: " A React e-commerce app selling cameras with authentication, product CRUD, Stripe payment processing, purchase history, and purchase history managment.",

@@ -2,7 +2,7 @@
 import './style/App.scss';
 import profile from './profile.jpg'
 import Projects from './components/Projects'
-// "homepage": "https://codessi.github.io/portfolio22",
+
 
 function App() {
   return (
@@ -50,11 +50,11 @@ function App() {
        <div className="content-wrapper">
          <h3>CONTACT HERE</h3>
          <a
-            target="_blank" className='btn'
+            target="_blank" className='btn contact'
             href="mailto:johansuh@gmail.com" rel="noreferrer"
-            >Email Here</a>
+            >Email</a>
           <a
-            target="_blank" className='btn'
+            target="_blank" className='btn contact'
             href="https://drive.google.com/file/d/1HrT5mn72YK1yjG9xpXzR6RjJg7gMf2j0/view?usp=sharing" rel="noreferrer">
             Resume</a>
        </div>
