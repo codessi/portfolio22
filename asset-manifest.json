@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8b3755d.css",
-    "main.js": "/static/js/main.da1f8643.js",
+    "main.css": "/static/css/main.919842c2.css",
+    "main.js": "/static/js/main.cbfbee66.js",
     "static/js/787.245be69d.chunk.js": "/static/js/787.245be69d.chunk.js",
+    "static/media/sunnyside-agency.png": "/static/media/sunnyside-agency.6cf94198e6b1a42dbb6d.png",
     "static/media/profile.jpg": "/static/media/profile.e1e20c0eeca6f4ddde72.jpg",
     "index.html": "/index.html",
-    "main.d8b3755d.css.map": "/static/css/main.d8b3755d.css.map",
-    "main.da1f8643.js.map": "/static/js/main.da1f8643.js.map",
+    "main.919842c2.css.map": "/static/css/main.919842c2.css.map",
+    "main.cbfbee66.js.map": "/static/js/main.cbfbee66.js.map",
     "787.245be69d.chunk.js.map": "/static/js/787.245be69d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8b3755d.css",
-    "static/js/main.da1f8643.js"
+    "static/css/main.919842c2.css",
+    "static/js/main.cbfbee66.js"
   ]
 }
