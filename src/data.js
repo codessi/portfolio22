@@ -1,4 +1,14 @@
+import sunnyside from './../src/image/sunnyside-agency.png'
+
 export const data = [
+  {
+    title:"Loopstudio",
+    image: "https://live.staticflickr.com/65535/51963238313_b78761d242_b.jpg",
+    description: " A static page built with react html scss includes flexbox, grid, responsive, Mobile-first webflow",
+    live:"https://codessi.github.io/sunny-side-agency-landing-page",
+    sourceCode:"https://github.com/codessi/sunny-side-agency-landing-page",
+
+  },
   {
     title:"Loopstudio",
     image: "https://live.staticflickr.com/65535/51957515183_81f624a04a_b.jpg",
