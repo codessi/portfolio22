@@ -1,8 +1,17 @@
 import sunnyside from './../src/image/sunnyside-agency.png'
+import ecommerce from './../src/image/ecommerce-screenshot.png'
 
 export const data = [
   {
-    title:"Loopstudio",
+    title:"Ecommerce shopping cart",
+    image: ecommerce,
+    description: " a functional shopping card. responsive, light-box for main product, mobile-first ",
+    live:"https://codessi.github.io/ecommerce-product-page-react/",
+    sourceCode:"https://github.com/codessi/ecommerce-product-page-react",
+
+  },
+  {
+    title:"Sunnyside Agency",
     image: "https://live.staticflickr.com/65535/51963238313_b78761d242_b.jpg",
     description: " A static page built with react html scss includes flexbox, grid, responsive, Mobile-first webflow",
     live:"https://codessi.github.io/sunny-side-agency-landing-page",

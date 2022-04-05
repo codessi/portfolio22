@@ -9,7 +9,7 @@ function App() {
     <>  
      <header>
        <div className="container">
-         <h1>Hi, my name is <span>Johan Suh</span> <br/> I'm a React Developer</h1>
+         <h1>Hi, my name is <span>Johan Suh</span> <br/> I'm a React JS Developer</h1>
          <a className='btn' href="#about">Know more</a>
        </div>
      </header> 
