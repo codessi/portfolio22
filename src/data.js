@@ -1,7 +1,16 @@
 import sunnyside from './../src/image/sunnyside-agency.png'
 import ecommerce from './../src/image/ecommerce-screenshot.png'
+import bathBomb from './../src/image/bath-bombs.png'
 
 export const data = [
+  {
+    title:"Ecommerce - Shopify ",
+    image: bathBomb,
+    description: " a functional shopping card. responsive, light-box for main product, mobile-first ",
+    live:"https://codessi.github.io/bath-bomb-shopify/",
+    sourceCode:"https://github.com/codessi/ecommerce-product-page-react",
+
+  },
   {
     title:"Ecommerce shopping cart",
     image: ecommerce,
