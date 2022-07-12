@@ -1,4 +1,5 @@
 
+import React from 'react';
 import './style/App.scss';
 import profile from './profile.jpg'
 import Projects from './components/Projects'
