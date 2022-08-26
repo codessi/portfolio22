@@ -1,6 +1,29 @@
+.tech{
+  height: auto;
+  padding: 2rem;
+  border: dotted;
+  background-color: #F3D466;
+
+
+
+
+
+  h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+}
+.tech-wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .project{
   height: auto;
   padding: 2rem;
+  border: dotted;
 
   h3{
     text-align: center;
