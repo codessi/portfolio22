@@ -4,7 +4,8 @@ import './style/App.scss';
 import profile from './profile.jpg'
 import Projects from './components/Projects'
 
-
+// need a..... tech page 
+// 
 function App() {
   return (
     <>  
@@ -40,6 +41,12 @@ function App() {
 
       </div>
 
+      </section>
+      <section className="project">
+       <h3>PROJECTS</h3>
+          <div className="project-wrapper">
+       
+          </div>
      </section>
      <section className="project">
        <h3>PROJECTS</h3>
