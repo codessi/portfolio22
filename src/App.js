@@ -57,7 +57,7 @@ function App() {
       </section>
 
       <section className="tech">
-        <h3>TECH</h3>
+        <h3>TECHS</h3>
         <div className="tech-wrapper"></div>
       </section>
       <section className="project">

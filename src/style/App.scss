@@ -106,13 +106,14 @@ header {
   clip-path: polygon(0 0, 100% 0, 162% 80%, 0 100%);
 
   background-color: var(--main);
+  padding-bottom: 13%;
 }
 
 .about {
   color: var(--white);
   padding: 0rem;
 
-  padding-bottom: 13%;
+  
 
   @media screen and (max-width: 700px) {
     -webkit-clip-path: none;
