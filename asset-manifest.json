@@ -1,19 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.919842c2.css",
-    "main.js": "/static/js/main.f623d67e.js",
+    "main.css": "/static/css/main.38156a55.css",
+    "main.js": "/static/js/main.886d7e46.js",
     "static/js/787.245be69d.chunk.js": "/static/js/787.245be69d.chunk.js",
     "static/media/ecommerce-screenshot.png": "/static/media/ecommerce-screenshot.f11c2a89a59f0fc9abcd.png",
     "static/media/sunnyside-agency.png": "/static/media/sunnyside-agency.6cf94198e6b1a42dbb6d.png",
     "static/media/bath-bombs.png": "/static/media/bath-bombs.ba5737ddfa9db8e6c548.png",
     "static/media/profile.jpg": "/static/media/profile.e1e20c0eeca6f4ddde72.jpg",
+    "static/media/api.svg": "/static/media/api.a9634b75e82c964d4e4d828f21fcf444.svg",
+    "static/media/cypress.svg": "/static/media/cypress.071c7e709ef3dbea48931ab4d60f4e3b.svg",
+    "static/media/sass.svg": "/static/media/sass.8aa78a8393470431c8036541f0708bd7.svg",
+    "static/media/react.svg": "/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/node-js.svg": "/static/media/node-js.fad2e5f091ad0d78bf18260484ead312.svg",
+    "static/media/tailwind.svg": "/static/media/tailwind.50fbcf516b9a3774e9a83272167059ae.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.0781b723446e1f8a1734f7831a9c3313.svg",
+    "static/media/css.svg": "/static/media/css.2f489abec175e48a6eb1664523fdb2c8.svg",
+    "static/media/html.svg": "/static/media/html.bff21c242216cace31a4a2297b7fcd82.svg",
+    "static/media/express.svg": "/static/media/express.ea97b712340ffb8f11d85ccb96309507.svg",
+    "static/media/figma.svg": "/static/media/figma.f4520722e44b6d0f10bd222c891b3d91.svg",
+    "static/media/firebase.svg": "/static/media/firebase.276e110384b4d3db427b943310172dc9.svg",
+    "static/media/git.svg": "/static/media/git.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/javascript.svg": "/static/media/javascript.073149757fbeb5b24d7f1e6c8fdd2100.svg",
+    "static/media/vscode.svg": "/static/media/vscode.b8b1e001813039750e6c05c236ab0d46.svg",
     "index.html": "/index.html",
-    "main.919842c2.css.map": "/static/css/main.919842c2.css.map",
-    "main.f623d67e.js.map": "/static/js/main.f623d67e.js.map",
+    "main.38156a55.css.map": "/static/css/main.38156a55.css.map",
+    "main.886d7e46.js.map": "/static/js/main.886d7e46.js.map",
     "787.245be69d.chunk.js.map": "/static/js/787.245be69d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.919842c2.css",
-    "static/js/main.f623d67e.js"
+    "static/css/main.38156a55.css",
+    "static/js/main.886d7e46.js"
   ]
 }
