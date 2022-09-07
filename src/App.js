@@ -2,10 +2,19 @@ import React from "react";
 import "./style/App.scss";
 import profile from "./profile.jpg";
 import Projects from "./components/Projects";
+import Tech from "./components/Tech";
 
-// need a..... tech page
-//
+
 function App() {
+// i am getting tech logos
+  // i will put them as list
+  // then I will put on grid
+  // grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  // ul li
+  // put border on  and test
+// what is my stack   mongodb
+  // express react node.js
+  // cypress.io shopify 
   return (
     <>
       <header>
@@ -21,7 +30,7 @@ function App() {
       </header>
 
       <section className="about">
-        <div className="clippath-container">
+        <div id="about" className="clippath-container">
           <div className="center-container">
             <div className="section-wrapper">
               <h3>ABOUT ME</h3>
@@ -57,9 +66,12 @@ function App() {
       </section>
 
       <section className="tech">
-        <h3>TECHS</h3>
-        <div className="tech-wrapper"></div>
+        <h3>TECH STACK</h3>
+        <div className="tech-wrapper">
+          <Tech /> 
+        </div>
       </section>
+      <hr></hr>
       <section className="project">
         <h3>PROJECTS</h3>
         <div className="project-wrapper">

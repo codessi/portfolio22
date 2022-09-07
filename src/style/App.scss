@@ -2,6 +2,10 @@
 @import "./section.scss";
 @import "./contact.scss";
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --main: hsl(178, 99%, 35%);
   --blue-black: hsl(248, 30%, 20%);
@@ -89,7 +93,8 @@ header {
 // }
 
 .about {
-  background-color: #f3d466;
+  // background-color: #f3d4669a;
+  
 }
 .contact {
   background-color: var(--main);
@@ -105,6 +110,11 @@ header {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 162% 80%, 0 100%);
 
+  @media screen and (max-width: 700px) {
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
   background-color: var(--main);
   padding-bottom: 13%;
 }
@@ -115,10 +125,7 @@ header {
 
   
 
-  @media screen and (max-width: 700px) {
-    -webkit-clip-path: none;
-    clip-path: none;
-  }
+
 
   h3 {
     text-align: center;
