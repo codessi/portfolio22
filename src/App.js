@@ -6,15 +6,7 @@ import Tech from "./components/Tech";
 
 
 function App() {
-// i am getting tech logos
-  // i will put them as list
-  // then I will put on grid
-  // grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-  // ul li
-  // put border on  and test
-// what is my stack   mongodb
-  // express react node.js
-  // cypress.io shopify 
+
   return (
     <>
       <header>
@@ -103,5 +95,5 @@ function App() {
     </>
   );
 }
-
+// /Users/johansuh/Downloads/portfolio22/src/style/App.scss
 export default App;

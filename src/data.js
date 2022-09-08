@@ -1,8 +1,18 @@
 import sunnyside from './../src/image/sunnyside-agency.png'
 import ecommerce from './../src/image/ecommerce-screenshot.png'
 import bathBomb from './../src/image/bath-bombs.png'
+import houseMarket from './../src/image/house-marketplace.jpg'
+
 
 export const data = [
+  {
+    title:"House Marketplace ",
+    image: houseMarket,
+    description: "firebase full-stack project with Authentication login and CRUD data listing ",
+    live:"https://house-marketplace-codessi.vercel.app",
+    sourceCode:"https://github.com/codessi/house-marketplace",
+
+  },
   {
     title:"Ecommerce - Shopify ",
     image: bathBomb,
@@ -21,7 +31,7 @@ export const data = [
   },
   {
     title:"Sunnyside Agency",
-    image: "https://live.staticflickr.com/65535/51963238313_b78761d242_b.jpg",
+    image: sunnyside,
     description: " A static page built with react html scss includes flexbox, grid, responsive, Mobile-first webflow",
     live:"https://codessi.github.io/sunny-side-agency-landing-page",
     sourceCode:"https://github.com/codessi/sunny-side-agency-landing-page",
