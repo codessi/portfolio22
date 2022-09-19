@@ -2,9 +2,18 @@ import sunnyside from './../src/image/sunnyside-agency.png'
 import ecommerce from './../src/image/ecommerce-screenshot.png'
 import bathBomb from './../src/image/bath-bombs.png'
 import houseMarket from './../src/image/house-marketplace.jpg'
+import budgetApp from './../src/image/budgetappdemo.png'
 
 
 export const data = [
+  {
+    title:"Budget App",
+    image: budgetApp,
+    description: "firebase full-stack personal finance app with Authentication login and CRUD.",
+    live:"https://budget-app-firebase-v2.vercel.app/",
+    sourceCode:"https://github.com/codessi/budget-app-firebase-v2",
+
+  },
   {
     title:"House Marketplace ",
     image: houseMarket,
@@ -61,20 +70,20 @@ export const data = [
     sourceCode:"https://github.com/codessi/code-scramble-client",
 
   },
-  {
-    title:"Habit Tracker",
-    image: "https://live.staticflickr.com/65535/51940745778_8f574f3ede_b.jpg",
-    description: "This is application that helps people to build habits a little bit at a time. There are few habit-building rules and I designed this application according to them. 1. make it simple 2. make it attractive 3. make it satisfying",
-    live:"https://codessi.github.io/habit-tracker-project-client/",
-    sourceCode:"https://github.com/codessi/habit-tracker-project-client",
+  // {
+  //   title:"Habit Tracker",
+  //   image: "https://live.staticflickr.com/65535/51940745778_8f574f3ede_b.jpg",
+  //   description: "This is application that helps people to build habits a little bit at a time. There are few habit-building rules and I designed this application according to them. 1. make it simple 2. make it attractive 3. make it satisfying",
+  //   live:"https://codessi.github.io/habit-tracker-project-client/",
+  //   sourceCode:"https://github.com/codessi/habit-tracker-project-client",
 
-  },
-  {
-    title:"Tic Tac Toe with API",
-    image: "https://live.staticflickr.com/65535/51941281855_0f58d47f33_b.jpg",
-    description: "Tic Tac Toe game that keeps scores and moves in heroku server",
-    live:"https://codessi.github.io/tic-tac-toe-project-client/",
-    sourceCode:"https://github.com/codessi/tic-tac-toe-project-client",
-  },
+  // },
+  // {
+  //   title:"Tic Tac Toe with API",
+  //   image: "https://live.staticflickr.com/65535/51941281855_0f58d47f33_b.jpg",
+  //   description: "Tic Tac Toe game that keeps scores and moves in heroku server",
+  //   live:"https://codessi.github.io/tic-tac-toe-project-client/",
+  //   sourceCode:"https://github.com/codessi/tic-tac-toe-project-client",
+  // },
 
 ]

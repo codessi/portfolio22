@@ -188,3 +188,20 @@ article {
   border: none;
   margin-left: 0.3rem;
 }
+
+.img-container{
+  overflow: hidden;
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+}
+.img-fluid{
+  transition: scale 300ms;
+  width: 100%;
+  // transition-duration: 300ms;
+}
+
+.img-fluid:hover{
+  scale: 1.1;
+}
+ 

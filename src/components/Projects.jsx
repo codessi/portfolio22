@@ -6,8 +6,8 @@ function Projects() {
     <>  
     {data.map((el, index) => {
       return(
-      <article key={index}>
-        <a href={el.live} target="_blank" rel="noreferrer"><img className ="img-fluid" alt= "website" src={el.image} /></a>        
+      <article  key={index}>
+        <div className="img-container"><a href={el.live} target="_blank" rel="noreferrer"><img className ="img-fluid" alt= "website" src={el.image} /></a>  </div>      
         <h4>{el.title}</h4>
         <p className ="content" >
              {el.description}
