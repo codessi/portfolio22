@@ -36,7 +36,7 @@ function App() {
                 <div ref={meRef} className={`image-wrapper hidden ${meVisible ? "show" : ""}`} >
                   <img src={profile} alt="profile"   />
                 </div>
-                <div className={` description image-wrapper hidden ${meVisible ? "show" : ""}`}>
+                <div className={` description hidden ${meVisible ? "show" : ""}`}>
                   <p>
                     As a React developer trained in General Assembly, I enjoy
                     computer programming as crafts like woodworking or pottery:
