@@ -1,18 +1,24 @@
-import React from "react";
+import React, {  useRef } from "react";
 import "./style/App.scss";
 import profile from "./profile.jpg";
 import Projects from "./components/Projects";
 import Tech from "./components/Tech";
+import { useInView } from "react-intersection-observer"
+
 
 
 function App() {
 
+  const { ref: introRef, inView:introIsVisible } = useInView({triggerOnce:true});
+  const { ref: meRef, inView: meVisible } = useInView({ threshold: 0 });
+  
   return (
     <>
-      <header>
-        <div className="container">
-          <h1>
-            Hi, my name is <span>Johan Suh</span> <br /> I'm a React JS
+      <header  >
+        <div ref={introRef} className={`intro container ${introIsVisible? "show": ""}`} >
+
+          <h1 >
+            Hi, my name is <span className="show">Johan Suh</span> <br /> I'm a React JS
             Developer
           </h1>
           <a className="btn" href="#about">
@@ -25,12 +31,12 @@ function App() {
         <div id="about" className="clippath-container">
           <div className="center-container">
             <div className="section-wrapper">
-              <h3>ABOUT ME</h3>
-              <div className="about-container">
-                <div className="image-wrapper">
-                  <img src={profile} alt="profile" />
+              <h3><span ref={meRef} className={`hidden  ${meVisible ? "show" : ""}`}>ABOUT ME</span></h3>
+              <div className="flex-container">
+                <div ref={meRef} className={`image-wrapper hidden ${meVisible ? "show" : ""}`} >
+                  <img src={profile} alt="profile"   />
                 </div>
-                <div className="description">
+                <div className={` description image-wrapper hidden ${meVisible ? "show" : ""}`}>
                   <p>
                     As a React developer trained in General Assembly, I enjoy
                     computer programming as crafts like woodworking or pottery:
