@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio22/static/css/main.fb6e198b.css",
-    "main.js": "/portfolio22/static/js/main.3607cbee.js",
+    "main.css": "/portfolio22/static/css/main.e76fda43.css",
+    "main.js": "/portfolio22/static/js/main.8fc6bc8d.js",
     "static/js/787.245be69d.chunk.js": "/portfolio22/static/js/787.245be69d.chunk.js",
     "static/media/ecommerce-screenshot.png": "/portfolio22/static/media/ecommerce-screenshot.f11c2a89a59f0fc9abcd.png",
     "static/media/sunnyside-agency.png": "/portfolio22/static/media/sunnyside-agency.6cf94198e6b1a42dbb6d.png",
@@ -25,12 +25,12 @@
     "static/media/javascript.svg": "/portfolio22/static/media/javascript.073149757fbeb5b24d7f1e6c8fdd2100.svg",
     "index.html": "/portfolio22/index.html",
     "static/media/vscode.svg": "/portfolio22/static/media/vscode.b8b1e001813039750e6c05c236ab0d46.svg",
-    "main.fb6e198b.css.map": "/portfolio22/static/css/main.fb6e198b.css.map",
-    "main.3607cbee.js.map": "/portfolio22/static/js/main.3607cbee.js.map",
+    "main.e76fda43.css.map": "/portfolio22/static/css/main.e76fda43.css.map",
+    "main.8fc6bc8d.js.map": "/portfolio22/static/js/main.8fc6bc8d.js.map",
     "787.245be69d.chunk.js.map": "/portfolio22/static/js/787.245be69d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb6e198b.css",
-    "static/js/main.3607cbee.js"
+    "static/css/main.e76fda43.css",
+    "static/js/main.8fc6bc8d.js"
   ]
 }
