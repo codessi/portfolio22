@@ -10,7 +10,7 @@ import { useInView } from "react-intersection-observer"
 function App() {
 
   const { ref: introRef, inView:introIsVisible } = useInView({triggerOnce:true});
-  const { ref: meRef, inView: meVisible } = useInView({ threshold: 0 });
+  const { ref: meRef, inView: meVisible } = useInView({triggerOnce:true});
   
   return (
     <>

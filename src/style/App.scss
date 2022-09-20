@@ -244,6 +244,7 @@ article {
   opacity: 0;
   translate: -10% ;
   transition-duration: 1000ms;
+  transition-delay: 500ms;
 
   &.show{
     opacity: 1;
@@ -256,9 +257,69 @@ article {
   opacity: 0;
   translate: 0 -10%;
   transition-duration: 400ms;
-  transition-delay: 500ms;
+  transition-delay: 300ms;
   &.show{
     opacity: 1;
     translate: 0;
   }
+}
+
+
+.tech{
+  .hidden {
+    opacity: 0;
+    transform: translateX( -100% );
+    transition-duration: 400ms;
+    transition-delay: 100ms;
+    &.show{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  :nth-child(2){
+    transition-delay: 400ms;
+  }
+  :nth-child(3){
+    transition-delay: 500ms;
+  }
+  :nth-child(4){
+    transition-delay: 600ms;
+  }
+  :nth-child(5){
+    transition-delay: 700ms;
+  }
+  :nth-child(6){
+    transition-delay: 800ms;
+  }
+  :nth-child(7){
+    transition-delay: 900ms;
+  }
+  :nth-child(8){
+    transition-delay: 1000ms;
+  }
+  :nth-child(9){
+    transition-delay: 1100ms;
+  }
+
+  :nth-child(10){
+    transition-delay: 1200ms;
+  }
+  :nth-child(11){
+    transition-delay: 1300ms;
+  }
+  :nth-child(12){
+    transition-delay: 1400ms;
+  }
+  :nth-child(13){
+    transition-delay: 1500ms;
+  }
+  :nth-child(14){
+    transition-delay: 1600ms;
+  }
+  :nth-child(15){
+    transition-delay: 1700ms;
+  }
+
+
 }
