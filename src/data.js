@@ -18,7 +18,7 @@ export const data = [
     title:"House Marketplace ",
     image: houseMarket,
     description: "firebase full-stack project with Authentication login and CRUD data listing ",
-    live:"https://house-marketplace-hudrvbhiu-codessi.vercel.app/",
+    live:"https://house-marketplace-codessi.vercel.app/",
     sourceCode:"https://github.com/codessi/house-marketplace",
 
   },
