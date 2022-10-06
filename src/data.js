@@ -1,7 +1,7 @@
 import sunnyside from './../src/image/sunnyside-agency.png'
 import ecommerce from './../src/image/ecommerce-screenshot.png'
 import bathBomb from './../src/image/bath-bombs.png'
-import houseMarket from './../src/image/house-marketplace.jpg'
+import houseMarket from './../src/image/house-marketplace-image.jpg'
 import budgetApp from './../src/image/budgetappdemo.png'
 
 
