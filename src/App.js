@@ -90,7 +90,7 @@ function App() {
           <a
             target="_blank"
             className="btn contact"
-            href="https://drive.google.com/file/d/1HrT5mn72YK1yjG9xpXzR6RjJg7gMf2j0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bk_2PMj74P309HM1wvJfD1kkzkHMqCA9/view?usp=sharing"
             rel="noreferrer"
           >
             Resume
