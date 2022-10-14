@@ -1,6 +1,6 @@
 .tech{
   height: auto;
-  padding: 2rem 7rem;
+  padding: 2rem;
   // border: dotted;
   // background-color: #f3d4669a;
   margin-top: 4rem;
@@ -33,6 +33,7 @@
     padding: 0.5rem;
   }
 }
+
 .tech-wrapper{
   display: flex;
   justify-content: space-around;
@@ -82,8 +83,14 @@ hr{
 
 
 article{
-  margin: 2rem;
+  
   flex:0 1 500px;
+  width: 30rem;
+  margin: 1rem 0;
+
+  @media (min-width:768px)  {
+    margin: 2rem;
+  }
 
   h4{
     margin-top: 1rem;
