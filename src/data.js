@@ -27,7 +27,7 @@ export const data = [
     image: bathBomb,
     description: " a functional shopping card. responsive, light-box for main product, mobile-first ",
     live:"https://codessi.github.io/bath-bomb-shopify/",
-    sourceCode:"https://github.com/codessi/ecommerce-product-page-react",
+    sourceCode:"https://github.com/codessi/bath-bomb-shopify",
 
   },
   {
