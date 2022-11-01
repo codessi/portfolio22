@@ -7,6 +7,14 @@ import budgetApp from './../src/image/budgetappdemo.png'
 
 export const data = [
   {
+    title:"House Marketplace ",
+    image: houseMarket,
+    description: "firebase full-stack project with Authentication login and CRUD data listing ",
+    live:"https://house-marketplace-codessi.vercel.app/",
+    sourceCode:"https://github.com/codessi/house-marketplace",
+
+  },
+  {
     title:"Budget App",
     image: budgetApp,
     description: "firebase full-stack personal finance app with Authentication login and CRUD.",
@@ -15,11 +23,11 @@ export const data = [
 
   },
   {
-    title:"House Marketplace ",
+    title:"Project Mangement App",
     image: houseMarket,
-    description: "firebase full-stack project with Authentication login and CRUD data listing ",
-    live:"https://house-marketplace-codessi.vercel.app/",
-    sourceCode:"https://github.com/codessi/house-marketplace",
+    description: "realtime updated project management app with firebase ",
+    live:"https://thedojosite-874d3.web.app/",
+    sourceCode:"https://github.com/codessi/dojo-project",
 
   },
   {
