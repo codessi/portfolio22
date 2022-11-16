@@ -3,6 +3,7 @@ import ecommerce from './../src/image/ecommerce-screenshot.png'
 import bathBomb from './../src/image/bath-bombs.png'
 import houseMarket from './../src/image/house-marketplace-image.jpg'
 import budgetApp from './../src/image/budgetappdemo.png'
+import projectMgmt from './../src/image/project-mgmt.jpg'
 
 
 export const data = [
@@ -24,7 +25,7 @@ export const data = [
   },
   {
     title:"Project Mangement App",
-    image: houseMarket,
+    image: projectMgmt,
     description: "realtime updated project management app with firebase ",
     live:"https://thedojosite-874d3.web.app/",
     sourceCode:"https://github.com/codessi/dojo-project",
